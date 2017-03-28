@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.company.servicenowtests.tests.TestLeftNav
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+testIncidentNavigation[0](com.company.servicenowtests.tests.TestLeftNav)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: com/saucelabs/saucerest/SauceREST
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.<init>(SauceOnDemandTestWatcher.java:81)
+	at com.saucelabs.junit.SauceOnDemandTestWatcher.<init>(SauceOnDemandTestWatcher.java:58)
+	at com.company.servicenowtests.BaseServiceNowTestSauce.<init>(BaseServiceNowTestSauce.java:48)
+	at com.company.servicenowtests.tests.TestLeftNav.<init>(TestLeftNav.java:19)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.createTestUsingConstructorInjection(ConcurrentParameterized.java:195)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.createTest(ConcurrentParameterized.java:190)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:244)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:241)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters.access$300(ConcurrentParameterized.java:170)
+	at com.saucelabs.junit.ConcurrentParameterized$SauceClassRunnerForParameters$2.run(ConcurrentParameterized.java:287)
+	at com.saucelabs.junit.ConcurrentParameterized$NonBlockingAsynchronousRunner$1.call(ConcurrentParameterized.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
